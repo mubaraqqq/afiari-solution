@@ -18,7 +18,7 @@ function App() {
 
   if (countries) {
     return (
-      <div>
+      <div className='free'>
         <Form countries={countries} setCountries={setCountries}/>
       </div>
     );
